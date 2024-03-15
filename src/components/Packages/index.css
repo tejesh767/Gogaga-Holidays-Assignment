@@ -1,0 +1,66 @@
+/* Write your CSS here */
+.container {
+  height: 100vh;
+}
+.card {
+  display: flex;
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+  margin: 20px;
+  padding: 40px;
+}
+.Photo {
+  height: 100px;
+  margin-top: 20px;
+}
+.packagesFirst {
+  display: flex;
+  justify-content: center;
+}
+.header {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: burlywood;
+}
+.para {
+  font-family: roboto;
+  color: bisque;
+  font-size: 17px;
+}
+.priceSpan {
+  font-style: italic;
+}
+.bookNowButton {
+  color: white;
+  background-color: burlywood;
+  padding: 7px;
+  border-radius: 5px;
+  border-width: 0px;
+}
+.text {
+  margin-right: 10px;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+.bookingButton {
+  color: white;
+  background-color: lightskyblue;
+  padding: 9px;
+  border-radius: 5px;
+  border-width: 0px;
+  margin-right: 40px;
+  margin-left: 30px;
+}
+@media screen and (max-width: 768px) {
+  card {
+    display: flex;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    margin: 5px;
+    padding: 10px;
+  }
+}

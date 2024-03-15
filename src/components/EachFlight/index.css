@@ -1,0 +1,25 @@
+.flightImg {
+  height: 150px;
+  width: 150px;
+  margin-left: 10px;
+}
+.eachItem {
+  display: flex;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  align-items: center;
+  padding: 10px;
+  margin: 20px;
+}
+.flightName {
+  font-style: italic;
+  font-weight: 500;
+}
+.flightButton {
+  padding: 10px;
+  color: white;
+  background-color: rgb(5, 54, 54);
+  border-radius: 4px;
+  border-width: 0px;
+}

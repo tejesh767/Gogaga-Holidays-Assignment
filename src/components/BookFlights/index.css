@@ -1,0 +1,33 @@
+.flightsImageHeader {
+  height: 100px;
+}
+.flightsHeader {
+  display: flex;
+  justify-content: center;
+}
+.flightsName {
+  text-align: center;
+}
+.flightsHeader {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.flightsPara {
+  margin-right: 60px;
+  font-style: italic;
+}
+.flightSearch {
+  margin-top: 18px;
+  margin-left: 60px;
+  padding: 6px;
+}
+.flights-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 150px;
+  margin-right: 150px;
+  flex-wrap: wrap;
+  list-style-type: none;
+}

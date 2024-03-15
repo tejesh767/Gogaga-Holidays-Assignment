@@ -1,0 +1,33 @@
+.HotelsImageHeader {
+  height: 100px;
+}
+.HotelsHeader {
+  display: flex;
+  justify-content: center;
+}
+.HotelsName {
+  text-align: center;
+}
+.HotelsHeader {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.HotelsPara {
+  margin-right: 60px;
+  font-style: italic;
+}
+.HotelsSearch {
+  margin-top: 18px;
+  margin-left: 60px;
+  padding: 6px;
+}
+.Hotels-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 150px;
+  margin-right: 150px;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
